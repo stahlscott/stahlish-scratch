@@ -12,18 +12,6 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-        </header>
-        <div className="about-container">
-          <p>
-            Full-stack software engineer & web developer. Teams are better than individuals. Learning is better than
-            knowing. Done is better than perfect. Simple is better than complex.
-          </p>
-          <p>
-            Previously, I attained a B.S. in Wood Products Engineering from SUNY ESF at Syracuse. I worked in the lumber
-            and building materials industry from 2007 to 2016. I co-owned and operated a hot sauce business from 2012 to
-            2015.
-          </p>
           <div>
             <a className="App-link" href="https://github.com/stahlscott" target="_blank" rel="noopener noreferrer">
               <img src={github} className="icon" alt="github" />
@@ -43,6 +31,23 @@ class App extends Component {
               <img src={email} className="icon" alt="email" />
             </a>
           </div>
+          <img src={logo} className="App-logo" alt="logo" />
+        </header>
+        <div className="about-container">
+          <p>
+            Full-stack software engineer & web developer. Teams are better than individuals. Learning is better than
+            knowing. Done is better than perfect. Simple is better than complex.
+          </p>
+          <p>
+            Previously, I attained a B.S. in Wood Products Engineering from SUNY ESF at Syracuse. I worked in the lumber
+            and building materials industry from 2007 to 2016. I co-owned and operated a hot sauce business from 2012 to
+            2015.
+          </p>
+          <p>
+            <a href="https://stackoverflow.com/story/stahlscott" target="_blank" rel="noopener noreferrer">
+              Stack Overflow developer story
+            </a>
+          </p>
         </div>
       </div>
     );
